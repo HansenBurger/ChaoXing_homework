@@ -11,4 +11,4 @@ c_correct = c[:12] + '_' + c[13:len(c)] + '_' + '作业16'
 c_recorrect = re.findall(patt_plust, c)[0]
 
 if b != None:
-    print(c_recorrect)
+    print(c_recorrect[0])
