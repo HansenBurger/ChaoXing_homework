@@ -12,3 +12,6 @@ c_recorrect = re.findall(patt_plust, c)[0]
 
 if b != None:
     print(c_recorrect[0])
+c = len(a)
+if a[c-3:] == "cpp":
+    print(1)
